@@ -50,6 +50,7 @@ function clickDesencriptar(){
         salidaTexto.value=""
     }   
     else{
+        const resultado=desencriptar(entradaTexto.value)
         entradaTexto.value=""
         estaVacio.style.display="none"
         salidaTexto.style.display="inline-block"
