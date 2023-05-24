@@ -5,28 +5,28 @@
 .areaInteractiva{
     float: left;
     margin: 20px 0 0 0;
-    width: 70%;
     height: 400px;
+    width: 90%;
     }
 
 .entradaTexto{
-    margin-left: 15%;
+    margin-left: 5%;
     background: none;
     width: 70%;
     height: 400px;
     font-size: 26px;
-    border: none;
-    outline: none;
+    /*border: none;
+    outline: none;*/
     resize: none;
     text-align: justify;}
 
 .informacion{
     font-size: 16px;
     font-weight: bold; 
-    margin: 2% 5% .5em 17%;
+    margin: 2% 5% .5em 10%;
 } 
 
-.botones{margin: 0 0 2% 19%;}
+.botones{margin: 0 0 2% 10%;}
 
 .botonEncriptar{
     width: 30%;
@@ -111,15 +111,37 @@
 .botonCopiar:hover{scale: 1.1;}
 
 
-@media screen and (max-width: 1140px) {
+
+@media screen and (max-width: 1024px) {
+
+    .logo-alura{scale: 2;margin-left: 10%;}
+
     .areaInteractiva{
         width: 100%;
         display: inline-block;
-        margin-bottom: 175px;
+        margin: 50px 0 175px 0;
+        
     }
 
     .entradaTexto{
+        margin-left: 10%;
+        height: 350px;
+        width: 80%;
         font-size: 20px;
+    }
+
+    .botones{margin-left: 17%;}
+
+    .botonEncriptar{
+        scale: 1.2;
+        margin-right: 2em;
+        width: 30%;
+    }
+
+    .botonDesencriptar{
+        scale: 1.2;
+        margin-right: 2em;
+        width: 30%;
     }
 
     .cajaSalida{
@@ -133,11 +155,10 @@
     .resultado{
         background-image: none;
         display: contents;
+
     }
 
-    .textoVacio{
-        margin: 100px auto;
-    }
+    .textoVacio{margin: 100px auto;}
 
-
+    .botonCopiar{scale: 1.2;}
 }
