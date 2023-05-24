@@ -2,6 +2,8 @@ const entradaTexto=document.querySelector(".entradaTexto")
 const salidaTexto=document.querySelector(".resultado")
 const estaVacio=document.querySelector(".textoVacio")
 const botonCopia=document.querySelector(".botonCopiar")
+const cajaSalida=document.querySelector(".cajaSalida")
+
 
 function abecEncriptado() {
     var abecedario = "abcdefghijklmnopqrstuvwxyz";
@@ -19,8 +21,9 @@ function abecEncriptado() {
 
 function clickEncriptar(){
     if(entradaTexto.value==""){
-        
-        estaVacio.style.color="#342333"
+        estaVacio.style.display="inline-block"
+        estaVacio.style.color="#342333"    
+        salidaTexto.style.height="60%"
         salidaTexto.style.backgroundImage = "url('imagenes/Muneco.png')"
         salidaTexto.value=""
     }
@@ -28,26 +31,31 @@ function clickEncriptar(){
     else{
     const resultado=encriptar(entradaTexto.value)
     entradaTexto.value=""
-    estaVacio.style.color="#f3eff4"
+    estaVacio.style.display="none"
+    salidaTexto.style.display="inline-block"
+    salidaTexto.style.height="80%"
     salidaTexto.style.backgroundImage = "none"
     salidaTexto.value=resultado
     }
 }
 
+
+
 function clickDesencriptar(){
     if(entradaTexto.value==""){
-        
-        estaVacio.style.color="#342333"
+        estaVacio.style.display="inline-block"
+        estaVacio.style.color="#342333"    
+        salidaTexto.style.height="60%"
         salidaTexto.style.backgroundImage = "url('imagenes/Muneco.png')"
         salidaTexto.value=""
-    }
-    
+    }   
     else{
-    const resultado=desencriptar(entradaTexto.value)
-    entradaTexto.value=""
-    estaVacio.style.color="#f3eff4"
-    salidaTexto.style.backgroundImage = "none"
-    salidaTexto.value=resultado
+        entradaTexto.value=""
+        estaVacio.style.display="none"
+        salidaTexto.style.display="inline-block"
+        salidaTexto.style.height="80%"
+        salidaTexto.style.backgroundImage = "none"
+        salidaTexto.value=resultado
     }
 }
 
