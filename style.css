@@ -1,13 +1,13 @@
 *{font-family: 'Wix Madefor Display', sans-serif;background: #d9c7da;}
 
-.logo-alura{margin-left:2%;}
+.logo-alura{margin-left:3%;margin-top: 3%;}
 
 .areaInteractiva{
     float: left;
     margin: 20px 0 0 0;
     width: 70%;
     height: 400px;
-    font-size: large;}
+    }
 
 .entradaTexto{
     margin-left: 15%;
@@ -17,16 +17,16 @@
     font-size: 26px;
     border: none;
     outline: none;
-    resize: none;}
+    resize: none;
+    text-align: justify;}
 
 .informacion{
-    width: 100%;
     font-size: 16px;
-    font-weight: bold;
-    margin: 2% 5% .5em 22%
+    font-weight: bold; 
+    margin: 2% 5% .5em 17%;
 } 
 
-.botones{margin: 0 5% 2% 20%;width: 100%;}
+.botones{margin: 0 0 2% 19%;}
 
 .botonEncriptar{
     width: 30%;
@@ -61,8 +61,8 @@
 .cajaSalida{
     position: absolute;
     top: 10%;
-    right: 10%;
-    width:20%;
+    right: 5%;
+    width:25%;
     background: #f3eff4;
     padding-top: 20px;
     height: 600px;
@@ -96,10 +96,10 @@
 .botonCopiar{
     width: 50%;
     padding: .5em 0 .5em 0;
-    margin: 2em 1em;
+    
     font-size: 20px;
     border-radius: 10px;
-    background: #bb9bbc;
+    background: #d9c7da;
     color: #342333;
     font-weight: bold;
     box-shadow: 2px 2px 5px #000000;
@@ -112,23 +112,23 @@
 
 
 @media screen and (max-width: 1140px) {
-    .areaInteractiva{width: 100%;margin-bottom: 15%;}
-
-    .entradaTexto{
+    .areaInteractiva{
         width: 100%;
-        margin-left: 15%;
+        display: inline-block;
+        margin-bottom: 175px;
     }
 
-    .informacion{margin-left: 30%;}
-
-    .botones{margin-left: 30%;}
+    .entradaTexto{
+        font-size: 20px;
+    }
 
     .cajaSalida{
         position: relative;
         display: inline-block;
-        width: 90%;
-        height: 300px;
-        margin-left: 30%;}
+        width: 70%;
+        height: 350px;
+        margin-left:20%;
+    }
 
     .resultado{
         background-image: none;
@@ -136,7 +136,8 @@
     }
 
     .textoVacio{
-        margin-top: 4em;
+        margin: 100px auto;
     }
-    
+
+
 }
