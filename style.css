@@ -1,0 +1,106 @@
+*{font-family: 'Wix Madefor Display', sans-serif;background: #d9c7da;}
+
+.logo-alura{margin-left:2%;}
+
+.areaInteractiva{
+    float: left;
+    margin: 20px 0 0 10%;
+    width: 60%;
+    height: 400px;}
+
+.entradaTexto{
+    background: none;
+    min-width: 90%;
+    min-height: 400px;
+    max-width: 90%;
+    max-height: 400px;
+    font-size: 20px;
+    border: none;
+    outline: none;}
+
+.informacion{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20%;}
+
+.botones{margin-left: 20%;}
+
+.botonEncriptar{
+    width: 30%;
+    padding: .5em 0 .5em 0;
+    margin: .5em 1em;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #342333;
+    font-weight: bold;
+    color:#f8f6f9;
+    box-shadow: 2px 2px 5px #000000;
+    transition: 400ms;
+    cursor: pointer;}
+
+.botonEncriptar:hover{scale: 1.1;}
+
+.botonDesencriptar{
+    width: 30%;
+    padding: .5em 0 .5em 0;
+    margin: .5em 1em;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #f8f6f9;
+    font-weight: bold;
+    color:#342333;
+    transition: 400ms;
+    box-shadow: 2px 2px 5px #000000;
+    cursor: pointer;}
+
+.botonDesencriptar:hover{scale: 1.1;}
+
+.salidaTexto{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width:22%;
+    background: #f3eff4;
+    padding-top: 20px;
+    height: 500px;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 2px 2px 5px #000000;}
+
+.resultado{
+    min-width: 85%;
+    max-width: 85%;
+    min-height: 270px;
+    max-height: 270px;
+    background-color: #f3eff4;
+    background-image: url("imagenes/Muneco.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border: none;
+    border-bottom: 3em;
+    outline: none;
+    font-size: 16px;}
+
+.textoVacio{background:none;margin: 0 1em 0 1em;color:#342333}
+.textoVacio h1{background:none;margin-bottom: 1em;font-weight: bold;}
+.textoVacio p{background:none;}
+
+
+
+.botonCopiar{
+    width: 50%;
+    padding: .5em 0 .5em 0;
+    margin: 2em 1em;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #bb9bbc;
+    color: #342333;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #000000;
+    transition: 400ms;
+    cursor: pointer;}
+
+.copiar{background: none;}
+
+.botonCopiar:hover{scale: 1.1;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo-alura"><img src="imagenes/logo-alura.png"></h1>
+    </header>
+
+    <main>
+
+        <section class="areaInteractiva">
+            
+            <textarea class="entradaTexto" cols="50" rows="15" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div class="informacion">
+                <h6>Solo letras minusculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <button class="botonEncriptar" onclick="clickEncriptar()">Encriptar</button>
+                <button class="botonDesencriptar" onclick="clickDesencriptar()">Desencriptar</button>
+            </div>
+
+
+        </section>
+
+
+        <section class="salidaTexto">
+            
+            <textarea class="resultado" cols="30" rows="20" readonly></textarea>
+            
+            <div class="textoVacio">
+                <h1>NINGUN MENSAJE FUE ENCONTRADO</h1>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            
+            <div class="copiar">
+                
+                <button class="botonCopiar" onclick="copiar()">Copiar </button>
+            </div>
+        
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer"><p> </p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
