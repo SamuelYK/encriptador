@@ -71,7 +71,7 @@
     box-shadow: 2px 2px 5px #000000;}
 
 .resultado{
-    width: 85%;
+    width: 90%;
     height: 60%;
     resize: none;
     resize:calc(salidaTexto); 
@@ -115,22 +115,20 @@
     .areaInteractiva{width: 100%;margin-bottom: 15%;}
 
     .entradaTexto{
-        margin-left: 5%;
-        min-width: 90%;
-        max-width: 90%;
-        min-height: 375px;
-        max-height: 375px;}
+        width: 100%;
+        margin-left: 15%;
+    }
 
-    .informacion{margin-left: 15%;}
+    .informacion{margin-left: 30%;}
 
-    .botones{margin-left: 15%;}
+    .botones{margin-left: 30%;}
 
     .cajaSalida{
         position: relative;
         display: inline-block;
-        width: 80%;
+        width: 90%;
         height: 300px;
-        margin: 0 0 0 20%;}
+        margin-left: 30%;}
 
     .resultado{
         background-image: none;
