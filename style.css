@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    .logo-alura{scale: 2;margin-left: 10%;}
+    .logo-alura{scale: 1.5;margin-left: 10%;}
 
     .areaInteractiva{
         width: 100%;
